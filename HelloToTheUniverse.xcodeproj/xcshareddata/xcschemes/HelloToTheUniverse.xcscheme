@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "1130"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -45,6 +45,15 @@
             </ActionContent>
          </ExecutionAction>
       </PostActions>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B59BC731D6E243800DFE0AD"
+            BuildableName = "HelloToTheUniverse.app"
+            BlueprintName = "HelloToTheUniverse"
+            ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -57,17 +66,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B59BC731D6E243800DFE0AD"
-            BuildableName = "HelloToTheUniverse.app"
-            BlueprintName = "HelloToTheUniverse"
-            ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -89,8 +87,6 @@
             ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
